@@ -24,10 +24,6 @@ var flowerGroup = new app.FlowersCollection([
   redRoses, rainbowRoses, heirloomRoses
 ]);
 
-//var flowerGroupView = new app.allFlowersView({ collection: flowerGroup});
-//
-//$("#allFlowers").html(flowerGroupView.render().el);
-
 var flowerGroupView = new app.allFlowersView({ collection: flowerGroup});
 
 $("#allFlowers").html(flowerGroupView.render().el);
